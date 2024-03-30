@@ -11,3 +11,5 @@ docker build -t streamlit .
 
 docker run -d -p 8501:8501 streamlit
 
+streamlit run app.py
+
